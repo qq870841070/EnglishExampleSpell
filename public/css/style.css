@@ -1,0 +1,80 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+:root{  
+    --review1:#FF3838;
+    --review2:#3798FF;
+    --review3:#00b701;
+    --review4:#F400FF;
+
+    --starflag-color1:#FF0099;
+    --starflag-color2:#FF7E29;
+    --starflag-color3:#19F2F2;
+    --starflag-color4:#29FF33;
+}
+html,body,#app{
+    height: 100%;
+}
+.v-flex{
+    display: flex;
+}
+.vc-panel{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.vh-full{
+    flex-grow: 1;
+    height: 0px;
+}
+.vh-flex{
+    display: flex;
+    flex-direction: column;
+}
+.v-full{
+    width: 0px;
+    flex-grow: 1;
+}
+.vc-flex{
+    display: flex;
+    align-items: center;
+}
+body{
+    background-color: var(--ek-backColor);
+}
+.el-pager{
+    --el-pagination-bg-color:transparent;
+}
+.el-pagination button{
+    --el-pagination-button-disabled-bg-color:transparent;
+    --el-pagination-bg-color:transparent;
+}
+
+.focus-s{
+    user-select:none;
+}
+.noneselect{
+    user-select:none;
+}
+.focus-s:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+/* 移除所有 Element Plus 组件的焦点轮廓 */
+.el-button:focus,
+.el-input__inner:focus,
+.el-select:focus,
+.el-checkbox-input:focus,
+.el-radio__input:focus,
+.el-switch:focus,
+.el-date-editor:focus,
+.el-slider__button:focus,
+.el-dropdown-link:focus {
+  outline: none!important;
+  box-shadow: none!important;
+}
+*:focus {
+    outline: none;
+}

@@ -1,0 +1,19 @@
+:root{
+    --ek-backColor:#F6F6FE;
+    --ek-input-backColor:#e3e3ef;
+
+    --ek-text-color1:#000000;
+    --ek-text-color2:#666666;
+    --ek-text-color3:#c6c6dc;
+
+    --ek-split-lineColor:#ececf3;
+    --ek-split-lineColor2:#f7f7f7;
+    --ek-split-lineColor3:#cecece;
+    --ek-card-backColor3:#ECECEC;
+    --ek-split-lineColor3:#ECECEC;
+
+    --ek-card-backColor:#e3e3f3;
+    --ek-card-backColor2:#e5e4fd;
+    --ek-card-in-card:#FFFFFF;
+    --ek-color-primary:rgb(115, 142, 254);
+}
