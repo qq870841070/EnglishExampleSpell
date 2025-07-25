@@ -1,4 +1,6 @@
-# cardreviewapp
+# 一个基于VUE3的英语例句拼写工具，注：不包含词库管理
+
+
 
 ## Project setup
 ```
