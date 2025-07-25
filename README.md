@@ -1,6 +1,6 @@
 # 一个基于VUE3的英语例句拼写工具，注：不包含词库管理
 
-
+作为灵思闪记的一个插件：https://www.quinknote.cn
 
 ## Project setup
 ```
